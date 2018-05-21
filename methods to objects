@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		 
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function people(name,age)
+		{
+			this.name=name;
+			this.age=age;
+			this.remainyears1=remainyearss;
+
+		}
+
+		function remainyearss()
+		{ var remainyears=80-this.age();
+			return remainyears;
+
+		}
+
+		var obj=new people("rakshit",18);
+		document.write(obj.remainyears1());
+	</script>
+
+</body>
+</html>
