@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ARRAY PROP</title>
+</head>
+<body><script type="text/javascript">
+	var array=new Array("rak","luck","joe");
+	document.write(array.length);
+	var array2=new Array("lisa","rachel","joana","ticki");
+
+	var people=array.concat(array2);
+	document.write(people[5]);
+
+
+	var movies=new Array("avatar","good will hunting","vanilla sky","fight club");
+
+	var string=movies.join();
+	var string2=array.join(" - ");
+	document.write(string);
+	document.write(string2);
+
+	movies.pop();
+	document.write(movies[3]);
+
+</script>
+
+</body>
+</html>
