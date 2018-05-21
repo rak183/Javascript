@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>funny index</title>
+</head>
+<body>
+<script type="text/javascript">
+	var jack=new Array();
+	jack["color"]="blue";
+	jack["food"]="gol gappa";
+
+	document.write(jack["color"]);
+</script>
+</body>
+</html>
