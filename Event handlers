@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event handlers</title>
+</head>
+<body onload="alert('webpage has loaded');" onUnload="alert('goodbye');">
+	<a href="www.google.co.in" onmouseover="alert('really gonna click me?');" onmouseout="alert('are you leaving?');"> here is the link </a>
+<form>
+	<input type="button" name="press me" value="hit me" onClick="alert('oh shit'); alert('oh shit twice');" onMouseOver="alert('mouse over me really!');" />
+
+</form>
+</body>
+</html>
