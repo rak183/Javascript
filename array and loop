@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ARRAY AND LOOP</title>
+</head>
+<body>
+<script type="text/javascript">
+	var array=new Array();
+
+	for (var i =0; i < 3; i++) {
+	array[i]=prompt("add sth  to array","e.g.-8");
+
+
+	}
+
+	document.write(array[0]+array[1]+array[2]);
+</script>
+</body>
+</html>
