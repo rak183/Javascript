@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>oop2</title>
+<script type="text/javascript">
+	function person(name,age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+
+var obj=new	person("rakshit",18);
+ 
+</script>
+
+ </head>
+ <body>
+ <script type="text/javascript">
+ 	document.write(obj.name);
+ document.write(obj.age);
+ </script>
+
+ </body>
+ </html>
