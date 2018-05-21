@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM ELEMENTS</title>
+</head>
+<body>
+<form name="myform">
+Username:<input type="text" name="username"/>
+Password:<input type="password" name="password"/>
+<input type="submit" name="OK">
+
+ </form>	
+<script type="text/javascript">
+ var x=document.forms[0].elements[1].name;
+ document.write(x);
+ var y=document.myform.elements[1].name;
+ document.write(y);
+
+</script>
+</body>
+</html>
