@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reverse,push,sort</title>
+</head>
+<body>
+<script type="text/javascript">
+	var animals= new Array("lion","rabbit","tiger","zebra","dog");
+	animals.reverse();
+	document.write(animals[1]);
+    animals.push("crocs","hippos");
+    document.write(animals[6]);
+    animals.sort();
+    document.write(animals[5]);
+</script>
+</body>
+</html>
