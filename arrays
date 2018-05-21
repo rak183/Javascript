@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ARRAYS</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var names= new Array("rak","buck","luck","suck");
+	document.write(names[1]);
+
+	var names2=Array(4);
+	names2[0]="rak";
+	names2[1]="buck";
+	names2[2]="luck";
+	names2[3]="suck";
+	document.write(names2[2]);  
+
+	var othermethiod=new Array();
+
+	othermethiod[0]="go";
+	othermethiod[1]="so";
+	document.write(othermethiod[1]);
+</script>
+</body>
+</html>
