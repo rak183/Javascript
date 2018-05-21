@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>oop using constructor</title>
+</head>
+<body>
+<script type="text/javascript">
+	bleh={name:"rakshit",age:18};
+	lucky={name:"rak",age:22};  
+
+</script>
+<script type="text/javascript">
+	document.write(lucky.name + " is my name and " +bleh.age+" is my age." );
+</script>
+</body>
+</html>
