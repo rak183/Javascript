@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prompt box</title>
+</head>
+<body>
+<script type="text/javascript">
+	var name=prompt("Enter your name","e.g.-John Watson");
+	document.write(name + " is my name.");
+</script>
+</body>
+</html>
