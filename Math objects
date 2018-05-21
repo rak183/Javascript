@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>math objects</title>
+</head>
+<body>
+<script type="text/javascript">
+	document.write(Math.PI);
+	document.write(Math.E);
+
+	var n=prompt("enter a number","e.g. - 6");
+	var answer=Math.sqrt(n);
+	alert("squarer root of "+n+" is " + answer);
+	
+</script>
+</body>
+</html>
