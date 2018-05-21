@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OOP</title>
+</head>
+<body>
+<script type="text/javascript">
+	var name="rakshit bhatt";
+	document.write(name.length);
+</script>
+</body>
+</html>
